@@ -4,7 +4,8 @@ class CreateApartamentos < ActiveRecord::Migration
       t.string :numero
       t.string :torre
       t.integer :piso
-      t.integer :nro_habitantes
+      t.integer :nro_habitantes, default: 0
+      t.integer :area, default: 0
 
       t.timestamps null: false
     end

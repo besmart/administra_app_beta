@@ -20,9 +20,10 @@ ActiveRecord::Schema.define(version: 20151216120919) do
     t.string   "numero"
     t.string   "torre"
     t.integer  "piso"
-    t.integer  "nro_habitantes"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
+    t.integer  "nro_habitantes", default: 0
+    t.integer  "area",           default: 0
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
   end
 
   create_table "residentes", force: :cascade do |t|
