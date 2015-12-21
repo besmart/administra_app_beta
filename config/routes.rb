@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :usuarios
+  resources :usuarios
   resources :vehiculos
   resources :residentes
   resources :apartamentos
