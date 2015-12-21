@@ -21,7 +21,7 @@
         <td><%= residente.apellido %></td>
         <td><%= residente.identificacion %></td>
         <td><%= residente.fecha_nacimiento %></td>
-        <td><%= residente.apartamento %></td>
+        <td><%= residente.apartamento.numero %></td>
         <td><%= link_to 'Show', residente %></td>
         <td><%= link_to 'Edit', edit_residente_path(residente) %></td>
         <td><%= link_to 'Destroy', residente, method: :delete, data: { confirm: 'Are you sure?' } %></td>
