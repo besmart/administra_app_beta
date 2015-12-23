@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  # get 'sesiones/new' quitamos este y colocamos resourses
+
+  resources :sesiones
   resources :usuarios
   resources :usuarios
   resources :vehiculos

@@ -18,6 +18,8 @@ ActiveSupport::Inflector.inflections(:en) do |inflect|
 	inflect.irregular 'residente', 'residentes'
 	inflect.irregular 'apartamento', 'apartamentos'
 	inflect.irregular 'vehiculo', 'vehiculos'
+	inflect.irregular 'sesion', 'sesiones'
+
 end
 
 #### ****** sierve para definir singulares y plurales de todo el aplicativo *** ####
